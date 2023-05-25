@@ -2,7 +2,7 @@ version: 2.0
 jobs:
   build:
     docker:
-      - image: clojure:lein-2.8.1
+      - image:  cimg/base:2022.09 # cimg/base:stable  clojure:lein-2.8.1
     working_directory: ~/circleci.test
     steps:
       - checkout
