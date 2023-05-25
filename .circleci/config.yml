@@ -7,13 +7,10 @@ jobs:
     steps:
       - checkout
 
-      - cache-restore:
-          # always restore the latest cache
-          key: v1-jars-
+      - run: echo " jksdfjh ajk  kjrewkjerwk543jn43" 
+      - run: echo " jhdfsauior489 r4nv 35kj3vuvkj5v4kji5" 
+      - run: echo " rdrgrthrtrty345634n y3 h 36g" 
+      - run: echo " fghgs dfbfg 56 5tbfbh e345gr5" 
+      - run: echo " bd fghdfg he gb  dr457568 ntue567" 
+      - run: echo "  bg hd the56 756 rtjer6i789 " 
 
-      - run: lein test
-
-      - cache-save:
-          key: v1-jars-{{ checksum "project.clj" }}
-          paths:
-            - ~/.m2
