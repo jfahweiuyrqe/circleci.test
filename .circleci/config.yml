@@ -7,10 +7,11 @@ jobs:
     steps:
       - checkout
 
-      - run: echo " jksdfjh ajk  kjrewkjerwk543jn43" 
-      - run: echo " jhdfsauior489 r4nv 35kj3vuvkj5v4kji5" 
-      - run: echo " rdrgrthrtrty345634n y3 h 36g" 
-      - run: echo " fghgs dfbfg 56 5tbfbh e345gr5" 
-      - run: echo " bd fghdfg he gb  dr457568 ntue567" 
-      - run: echo "  bg hd the56 756 rtjer6i789 " 
+      - run: echo " jkgdfgd dfgde rtt454sdfjh ajk  kjrewkjerw  tghfdghs rt k543jn43" 
+      - run: echo " jhd rtyertyerrfsauior489 r4nv 3tye r ertyt rt yrty5kj3vuvkj5v4kji5" 
+      - run: echo " rdrgrthrtyertyertyr trty345634rty rn y3 h 36g" 
+      - run: echo " fghgs dfbfg t etyerty er56 ty erty5tbfbrrth e345gr5" 
+      - run: echo " bd fghdty ertyrtyfg he gb  dr457ty 568 ntue567" 
+      - run: echo "  bg hd rtyertyert the56 756 trty rty  r6i789 " 
+      - run: echo "jsfaiuwe orioweirowe rijwoerjmoij "
 
