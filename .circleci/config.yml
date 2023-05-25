@@ -1,17 +1,18 @@
 version: 2.0
 jobs:
   build:
-    docker:
-      - image:  cimg/base:2022.09 # cimg/base:stable  clojure:lein-2.8.1
+    machine:
+      image: ubuntu-2004:2023.04.2
     working_directory: ~/circleci.test
     steps:
       - checkout
-
-      - run: echo " jkgdfgd dfgde rtt454sdfjh ajk  kjrewkjerw  tghfdghs rt k543jn43" 
-      - run: echo " jhd rtyertyerrfsauior489 r4nv 3tye r ertyt rt yrty5kj3vuvkj5v4kji5" 
-      - run: echo " rdrgrthrtyertyertyr trty345634rty rn y3 h 36g" 
+      - run: sudo apt update
+      - run: echo " jkgdfgh fgd dfgde rtt4 g f 54sdfjh ajk  kjf grewkjerw  tghfdghs rt k543 gjn43" 
+      - run: echo " jhd rtyertyer gh rfsauior489 r4nv 3tye r ertyt rt yrty5kj3 fghvuvkj5v4kji5"
+      - run: sudo apt-get install build-essential libtool autoconf
+      - run: echo " rdrgrth fghrtyertyertyr trtyfgh 345634rty rn y3 h 36g" 
       - run: echo " fghgs dfbfg t etyerty er56 ty erty5tbfbrrth e345gr5" 
-      - run: echo " bd fghdty ertyrtyfg he gb  dr457ty 568 ntue567" 
+      - run: echo " bd fghdg hfty ertyrtyfg he gb  dr45hfg 7ty 568 ntue567" 
       - run: echo "  bg hd rtyertyert the56 756 trty rty  r6i789 " 
-      - run: echo "jsfaiuwe orioweirowe rijwoerjmoij "
+      - run: echo "jsf fghaiuwe orio hfgweirowe rijw fghoerjmoij "
 
